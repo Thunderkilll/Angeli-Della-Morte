@@ -55,6 +55,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\AngeliDellaMorte_Assets\Code\Scripts\EnemyHealth.cs" />
+     <Compile Include="Assets\AngeliDellaMorte_Assets\Code\Scripts\EnemyMovement.cs" />
+     <Compile Include="Assets\AngeliDellaMorte_Assets\Code\Scripts\PlayerHealth.cs" />
      <Compile Include="Assets\AngeliDellaMorte_Assets\Code\Scripts\ProjectilePath.cs" />
      <Compile Include="Assets\AngeliDellaMorte_Assets\Code\Scripts\RotateToMouse.cs" />
      <Compile Include="Assets\AngeliDellaMorte_Assets\Code\Scripts\SpawnProjectile.cs" />
