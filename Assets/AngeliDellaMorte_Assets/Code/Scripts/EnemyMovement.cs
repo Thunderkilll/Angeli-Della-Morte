@@ -28,6 +28,11 @@ namespace ADM {
         {
             // ... set the destination of the nav mesh agent to the player.
             nav.SetDestination (player.position);
+                Vector3 distance = new Vector3(1, 0, 1);
+                if (gameObject.transform.position - player.position == distance)
+                {
+                    Debug.Log("shoot");
+                }
         }
         // Otherwise...
         else
